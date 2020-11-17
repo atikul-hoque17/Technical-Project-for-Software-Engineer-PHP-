@@ -64,11 +64,11 @@ class HomeController extends Controller
              unlink($exist_pic);
             }
               $picName=$updateid.$picInfo->getClientOriginalName();
-                $path="profileImage/";
+                $path="public/profileImage/";
                 $picUrl=$path.$picName;
                 $picInfo->move($path,$picName);  
 
-                $savepath="profileImage/";
+                $savepath="public/profileImage/";
                 $savepicUrl=$savepath.$picName;
 
             }else{

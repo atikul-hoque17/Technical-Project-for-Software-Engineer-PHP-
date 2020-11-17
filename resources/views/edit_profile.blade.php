@@ -79,7 +79,7 @@
                             <div class="col-md-6">
                                 
                                  @if($profileid->photo =='')         
-								    <img style="width: 180px;height: 180px;border: 1px solid #efefef;" src="{{asset('/profileImage/no_image.jpg')}}">
+								    <img style="width: 180px;height: 180px;border: 1px solid #efefef;" src="{{asset('/public/profileImage/no_image.jpg')}}">
 								 @else
 									<img style="width: 180px;height: 180px;border: 1px solid #efefef;" src="{{asset('/' . $profileid->photo)}}">
 								 @endif

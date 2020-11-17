@@ -64,7 +64,7 @@
                                           @if($company->logo =='')         
                                               <img style="width: 40px;height: 40px;border: 1px solid #efefef;" src="{{asset('/companyLogo/no_image.jpg')}}">
                                            @else
-                                            <img style="height: 40px;width: 40px;" src="{{asset('/' . $company->logo)}}">
+                                            <img style="height: 40px;width: 40px;" src="{{asset('/public/' . $company->logo)}}">
                                            @endif
 
 
